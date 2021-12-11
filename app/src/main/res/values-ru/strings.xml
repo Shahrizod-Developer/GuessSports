@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="categories">СПОРТИВНЫЕ КАТЕГОРИИ</string>
+    <string name="winter">Зимний</string>
+    <string name="summer">Летний</string>
+    <string name="single">Одиночный</string>
+    <string name="group">Командный</string>
+    <string name="start">СТАРТ</string>
+    <string name="categories_home">категории</string>
+    <string name="settings">настройки</string>
+    <string name="guess">Угадано:</string>
+    <string name="restart">рестарт</string>
+    <string name="main_menu">главное меню</string>
+    <string name="sound">звуки</string>
+    <string name="vibration">вибрация</string>
+    <string name="language">язык</string>
+</resources>

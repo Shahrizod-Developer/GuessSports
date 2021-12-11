@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#112629">
+
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:background="@drawable/effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/english"
+                android:src="@drawable/english"
+                android:layout_width="60dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/russian"
+                android:src="@drawable/russian"
+                android:layout_width="60dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/effect"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:id="@+id/china"
+                android:src="@drawable/china"
+                android:layout_width="60dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="5dp"
+                android:layout_height="40dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

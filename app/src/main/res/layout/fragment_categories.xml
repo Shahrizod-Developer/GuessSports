@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_style"
+    android:layout_height="match_parent"
+    tools:context=".ui.CategoriesFragment">
+
+
+    <ImageView
+
+        android:id="@+id/rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:src="@drawable/ic_rectangle_69__2_"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/rectangle"
+        app:layout_constraintBottom_toBottomOf="@id/rectangle"
+        app:layout_constraintLeft_toLeftOf="@id/rectangle"
+        app:layout_constraintRight_toRightOf="@id/rectangle"
+        android:src="@drawable/ic_union"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:id="@+id/sound"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        android:textSize="30dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+   <TextView
+
+       android:id="@+id/winterText"
+       app:layout_constraintTop_toBottomOf="@id/sound"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintVertical_bias="0.1"
+       app:layout_constraintHorizontal_bias="0.25"
+       android:textSize="16dp"
+       android:textColor="#F7FF14"
+       android:textStyle="normal"
+       android:shadowColor="#F7FF14"
+       android:shadowDy="0"
+       android:shadowDx="0"
+       android:fontFamily="@font/source_sans_pro_black_italic"
+       android:text="@string/winter"
+       android:outlineSpotShadowColor="#F7FF14"
+       android:outlineAmbientShadowColor="#F7FF14"
+       android:shadowRadius="5"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/rect"
+        app:layout_constraintTop_toBottomOf="@id/winterText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintVertical_bias="0.05"
+        android:src="@drawable/ic_rectangle_69__7_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/rect"
+        app:layout_constraintBottom_toBottomOf="@id/rect"
+        app:layout_constraintLeft_toLeftOf="@id/rect"
+        app:layout_constraintRight_toRightOf="@id/rect"
+        android:src="@drawable/ic_vector__2_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/summerText"
+        app:layout_constraintTop_toBottomOf="@id/sound"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintHorizontal_bias="0.75"
+        android:textSize="16dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/summer"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/rect2"
+        app:layout_constraintTop_toBottomOf="@id/summerText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintVertical_bias="0.05"
+        android:src="@drawable/ic_rectangle_69__7_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/rect2"
+        app:layout_constraintBottom_toBottomOf="@id/rect2"
+        app:layout_constraintLeft_toLeftOf="@id/rect2"
+        app:layout_constraintRight_toRightOf="@id/rect2"
+        android:src="@drawable/ic_union__1_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:id="@+id/singlText"
+        app:layout_constraintTop_toBottomOf="@id/rect"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.25"
+        android:textSize="16dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/single"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/single"
+        app:layout_constraintTop_toBottomOf="@id/singlText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintVertical_bias="0.085"
+        android:src="@drawable/ic_rectangle_69__7_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/single"
+        app:layout_constraintBottom_toBottomOf="@id/single"
+        app:layout_constraintLeft_toLeftOf="@id/single"
+        app:layout_constraintRight_toRightOf="@id/single"
+        android:src="@drawable/ic_vector__3_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+
+        android:id="@+id/groupText"
+        app:layout_constraintTop_toBottomOf="@id/rect2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.75"
+        android:textSize="16dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/group"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/rect3"
+        app:layout_constraintTop_toBottomOf="@id/groupText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintVertical_bias="0.085"
+        android:src="@drawable/ic_rectangle_69__7_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/rect3"
+        app:layout_constraintBottom_toBottomOf="@id/rect3"
+        app:layout_constraintLeft_toLeftOf="@id/rect3"
+        app:layout_constraintRight_toRightOf="@id/rect3"
+        android:src="@drawable/ic_vector__4_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

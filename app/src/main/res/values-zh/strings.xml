@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">GuessSports</string>
+    <string name="categories">运动类别</string>
+    <string name="winter">冬天</string>
+    <string name="summer">冬天</string>
+    <string name="single">单身的</string>
+    <string name="group">团体</string>
+    <string name="start">开始</string>
+    <string name="categories_home">级别</string>
+    <string name="settings">设置</string>
+    <string name="guess">猜：</string>
+    <string name="restart">重新开始</string>
+    <string name="main_menu">主菜单</string>
+    <string name="sound">声音</string>
+    <string name="vibration">振动</string>
+    <string name="language">语</string>
+</resources>

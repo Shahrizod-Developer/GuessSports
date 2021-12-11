@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_style"
+    android:layout_height="match_parent"
+    tools:context=".ui.SettingFragment">
+
+
+    <ImageView
+
+        android:id="@+id/rectangle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/effect"
+        android:src="@drawable/ic_rectangle_69__2_"
+        app:layout_constraintHorizontal_bias="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/rectangle"
+        app:layout_constraintBottom_toBottomOf="@id/rectangle"
+        app:layout_constraintLeft_toLeftOf="@id/rectangle"
+        app:layout_constraintRight_toRightOf="@id/rectangle"
+        android:src="@drawable/ic_union"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/sound"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.27"
+        android:textSize="30dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/sound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+
+        android:id="@+id/soundOn"
+        app:layout_constraintTop_toBottomOf="@id/sound"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="2dp"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:background="@drawable/effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="10"
+        app:thumbTint="#F7FF14"
+        app:trackTint="@color/white"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/vibration"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="30dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:shadowColor="#F7FF14"
+        android:textAllCaps="true"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/vibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+
+        android:id="@+id/vibrationOn"
+        app:layout_constraintTop_toBottomOf="@id/vibration"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="2dp"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:background="@drawable/effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        app:thumbTint="#F7FF14"
+        app:trackTint="@color/white"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:id="@+id/language"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.73"
+        android:textSize="30dp"
+        android:textColor="#F7FF14"
+        android:textStyle="normal"
+        android:textAllCaps="true"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/lang"
+        app:layout_constraintTop_toBottomOf="@id/language"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_rectangle_69__2_"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <ImageView
+
+        android:id="@+id/til"
+        app:layout_constraintTop_toTopOf="@id/lang"
+        app:layout_constraintBottom_toBottomOf="@id/lang"
+        app:layout_constraintLeft_toLeftOf="@id/lang"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/english"
+        app:layout_constraintRight_toRightOf="@id/lang"
+        android:layout_width="30dp"
+        android:layout_height="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

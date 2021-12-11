@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name" translatable="false">GuessSports</string>
+    <string name="categories">SPORT CATEGORIES</string>
+    <string name="winter">Winter</string>
+    <string name="summer">Summer</string>
+    <string name="single">Single</string>
+    <string name="group">Group</string>
+    <string name="start">START</string>
+    <string name="categories_home">CATEGORIES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="guess">GUESS:</string>
+    <string name="restart">RESTART</string>
+    <string name="main_menu">MAIN MENU</string>
+    <string name="sound">SOUND</string>
+    <string name="vibration">VIBRATION</string>
+    <string name="language">LANGUAGE</string>
+</resources>

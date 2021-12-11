@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back_style"
+    tools:context=".ui.HomeFragment">
+
+    <ImageView
+
+        android:id="@+id/ball"
+        app:layout_constraintTop_toTopOf="@id/guess"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/guess"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.03"
+        app:layout_constraintHorizontal_bias="0"
+        android:layout_marginStart="119dp"
+        android:src="@drawable/ic_group_54"
+        android:layout_width="82dp"
+        android:layout_height="82dp"/>
+
+
+    <TextView
+
+        android:id="@+id/guess"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        android:shadowColor="#F7FF14"
+        android:textColor="#F7FF14"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:textSize="50dp"
+        android:text="GUESS"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="8"
+        android:src="@drawable/ic_guess__1_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/rectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_rectangle_69"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guess"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <ImageView
+
+        app:layout_constraintTop_toTopOf="@id/rectangle"
+        app:layout_constraintBottom_toBottomOf="@id/rectangle"
+        app:layout_constraintLeft_toLeftOf="@id/rectangle"
+        app:layout_constraintRight_toRightOf="@id/rectangle"
+        android:src="@drawable/ic_sports"
+        app:layout_constraintVertical_bias="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/effect"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="5"
+        android:src="@drawable/ic_rectangle_69__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rectangle"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/start"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:textAllCaps="true"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="8"
+        android:textColor="#F7FF14"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/start"
+        app:layout_constraintLeft_toLeftOf="@id/start"
+        app:layout_constraintRight_toRightOf="@id/start"
+        app:layout_constraintTop_toTopOf="@id/start" />
+
+    <ImageView
+
+        android:id="@+id/categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_rectangle_69__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/categories_home"
+        android:textColor="#F7FF14"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:textAllCaps="true"
+        android:shadowDx="0"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="8"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/categories"
+        app:layout_constraintLeft_toLeftOf="@id/categories"
+        app:layout_constraintRight_toRightOf="@id/categories"
+        app:layout_constraintTop_toTopOf="@id/categories"/>
+
+    <ImageView
+
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/effect"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_rectangle_69__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/categories"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/source_sans_pro_black_italic"
+        android:text="@string/settings"
+        android:textColor="#F7FF14"
+        android:shadowColor="#F7FF14"
+        android:shadowDy="0"
+        android:shadowDx="0"
+        android:textAllCaps="true"
+        android:outlineSpotShadowColor="#F7FF14"
+        android:outlineAmbientShadowColor="#F7FF14"
+        android:shadowRadius="8"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@id/settings"
+        app:layout_constraintLeft_toLeftOf="@id/settings"
+        app:layout_constraintRight_toRightOf="@id/settings"
+        app:layout_constraintTop_toTopOf="@id/settings"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
